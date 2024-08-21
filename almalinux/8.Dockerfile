@@ -1,4 +1,4 @@
-FROM almalinux:8
+FROM --platform=linux/x86_64 almalinux:8
 
 ENV container=docker
 
